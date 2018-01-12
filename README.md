@@ -5,7 +5,7 @@ Windows and Mac OS, this tutorial is aimed at Linux users who just want to use t
 
 ## Running the code in the Debian 8 w/ zshell environment 
 * You will need to include the 'shebang' line at the top of each file, just like I have in these files
-* To make the programs executable: chmod 755 filename.py
+* To make the programs executable: `chmod 755 filename.py`
 * Mac OS users may need to make symlinks. 
 * Your shebang line might be different than mine, depending on the path your Python3
 interpreter is located.
