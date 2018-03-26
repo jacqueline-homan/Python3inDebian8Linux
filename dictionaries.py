@@ -12,4 +12,11 @@ def main():
 	for k in sorted(e.keys()):
 		print(k, e[k])
 
+	animals = dict(cat = 'meow!', dog = 'woof!', pig = 'freeze muthafuckas! Put yo mofuckin hands above yo heads!')
+	for k, v in animals.items():
+		print(f'{k}: {v}')
+
+def print_dict(o):
+	for k, v in o.items: print(f'{k}: [v]')
+
 if __name__ == "__main__": main()
