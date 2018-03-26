@@ -13,10 +13,12 @@ def main():
 		print(k, e[k])
 
 	animals = dict(cat = 'meow!', dog = 'woof!', pig = 'freeze muthafuckas! Put yo mofuckin hands above yo heads!')
-	for k, v in animals.items():
-		print(f'{k}: {v}')
+	#for k, v in animals.items():
+	#	print(f'{k}: {v}')
+	animals['hyena'] = 'hahahaha!'
+	print_dict(animals)
 
 def print_dict(o):
-	for k, v in o.items: print(f'{k}: [v]')
+	for k, v in o.items(): print(f'{k}: {v}')
 
-if __name__ == "__main__": main()
+if __name__ == '__main__': main()
