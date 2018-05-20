@@ -16,7 +16,13 @@ def main():
 	#for k, v in animals.items():
 	#	print(f'{k}: {v}')
 	animals['hyena'] = 'hahahaha!'
+
+	# prettier output than the key exception if a key doesn't exist.
+	# The `get` method will return 'None' for non-existent key
+	print(animals.get('serval'))
+
 	print_dict(animals)
+	print('Found!' if 'hyena' in animals else 'Nope!')
 
 def print_dict(o):
 	for k, v in o.items(): print(f'{k}: {v}')
